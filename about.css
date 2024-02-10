@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg{
+    /* border: 2px solid red; */
+    background-image: url(images/instrument.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    overflow-x: hidden !important;
+    height: 630px;
+    z-index: 2;
+}
+
+.bord{
+    /* border: 2px solid red; */
+    background-color: rgba(0, 0, 0, 0.373);
+    height: 714px;
+}
+
+.container-fluid  img{
+    color: #dbdbdb;
+    /* margin-left: 20px; */
+    margin-top: -20px;
+    height: 150px;
+    width: 100%;
+}
+
+.navbar-nav a{
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+    font-size: larger;
+    font-weight: 550;
+    padding: auto;
+    color: #dbdbdb;
+    top: -30px;
+    left: 600px;
+    text-decoration: none;
+    gap: 30px;
+    /* justify-content: space-between; */
+    transition: .5s;
+}
+.navbar-nav a:hover{
+    color: #FF2F30;
+}
+
+#active{
+    color: #FF2F30;
+}
+
+
+.bord h1{
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+    color: #ffffff;
+    font-weight: 550;
+    text-align: center;
+    top: 490px;
+}
+
+span{
+    color: #FF2F30;
+}
+
+.bord .btn{
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    background-color: #dbdbdb;
+    top: 200px;
+    left: 550px;
+    width: 11%;
+    height: 40px;
+    transition: .5s;
+}
+
+.bord .btn:hover{
+    background-color: #c7c7c7;
+}
+
+.container{
+    position: relative;
+    /* border: 2px solid red; */
+    min-width: 100%;
+    height: 630px;
+}
+
+.container .display{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container .box{
+    position: relative;
+    /* border: 2px solid red; */
+    background-image: url(images/about1-removebg-preview.png);
+    background-size: cover;
+    background-position: -170px;
+    width: 30%;
+    height: 400px;
+    top: 100px;
+    left: 200px;
+}
+
+.container .box1{
+    position: relative;
+    /* border: 2px solid red; */
+    width: 35%;
+    height: 330px;
+    top: 100px;
+    left: 200px;
+}
+
+.box1 .txt{
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FF2F30;
+}
+
+.box1 h2{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    top: 10px;
+}
+
+.box1 h2 span{
+    color: #FF2F30;
+}
+
+.box1 .txt1{
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+    font-size: 14px;
+    color: #6c757d;
+    top: 20px;
+}
+
+.box2{
+    position: relative;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    background-color: #FF2F30;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    top: 70px;
+    left: 170px;
+    width: 75%;
+    height: 100px;
+}
+
+.box2 h1{
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    left: 80px;
+    top: 10px;
+    color: #ffffff;
+}
+
+.box2 .txt2{
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    top: 65px;
+    left: -30px;
+}
+
+.container1{
+    position: relative;
+    /* border: 2px solid red; */
+    background: #030518;
+    min-width: 100%;
+    height: 300px;
+}
+
+.container-fluid1 img{
+    position: relative;
+    /* border: 2px solid red; */
+    color: #dbdbdb;
+    left: 170px;
+    top: 40px;
+    height: 100px;
+    width: 10%;
+}
+
+.container1 .txt3{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #fafafa;
+    left: 150px;
+    top: 30px;
+}
+
+.container1 .social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    text-decoration: none;
+    border: 0.2rem solid #FF2F30;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #FF2F30;
+    margin: 4rem 1rem 3rem 0;
+    transition: .5s ease;
+}
+
+.container1 .social-media a:hover{
+    background-color: #FF2F30;
+    color: #ffffff;
+}
+
+.display2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.box3{
+    position: relative;
+    /* border: 2px solid red; */
+    width: 8%;
+    top: -230px;
+    left: 550px;
+    height: 30px;
+}
+
+.txt4{
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    /* text-align: center; */
+    color: #ffffff;
+}
+
+.txt5{
+    position: relative;
+    /* border: 2px solid red; */
+    text-align: left;
+    left: -30px;
+    top: 20px;
+}
+
+.txt5 ul a{
+    font-family: 'Poppins' sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #8b8b8b;
+    line-height: 30px;
+    transition: .5s;
+}
+
+.txt5 ul a:hover{
+    color: #FF2F30;
+}
+
+.box4{
+    position: relative;
+    /* border: 2px solid red; */
+    width: 12%;
+    top: -230px;
+    left: 700px;
+    height: 30px;
+}
+
+.txt6{
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #8b8b8b;
+    text-align: left;
+    /* left: -30px; */
+    top: 20px;
+}
+
+.txt7 a{
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #8b8b8b;
+    text-align: left;
+    /* left: -30px; */
+    top: 35px;
+}
+
+.txt8 a{
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #8b8b8b;
+    text-align: left;
+    /* left: -30px; */
+    top: 45px;
+}
+
+.container2{
+    position: relative;
+    /* border: 2px solid red; */
+    background: #010001;
+    min-width: 100%;
+    height: 100px;
+}
+
+.txt9{
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+    font-size: 12px;
+    color: #9d9d9d;
+    text-align: center;
+    top: 50px;
+}

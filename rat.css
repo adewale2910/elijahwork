@@ -41,6 +41,7 @@
 
 .fin a:hover {
     color: #FF2F30;
+   cursor: pointer;
 }
 
 .social-media a {
@@ -58,4 +59,12 @@
 .social-media a:hover {
     background-color: #FF2F30;
     color: #ffffff;
+}
+
+@media  (max-width: 1000px) {
+    .fish{
+       border: 2px solid red;
+        background-color: white;
+     
+    }
 }

@@ -9,11 +9,17 @@
 
 .navbar-nav a {
     font-size: x-large;
-
+    font-weight: 600;
+    /* margin-right: 20px; */
     color: #dbdbdb;
     left: 200px;
     text-decoration: none;
     transition: .5s;
+}
+
+.goat{
+    margin-left: 200px !important;
+    /* border: 2px solid red; */
 }
 
 .navbar-nav a:hover {
@@ -36,7 +42,7 @@
 }
 
 .fin a:hover {
-    color: #FF2F30;
+    color: #FF2F30 !important;
    cursor: pointer;
 }
 
@@ -58,12 +64,31 @@
 }
 
 
+/* testimonies css  */
+
+.testimonial {
+    background-color: #f8f9fa;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .raw{
+    /* border: 3px solid ; */
+    border-radius: 50%;
+  }
+
 @media  (max-width: 1200px) {
     .navbar-nav a{
-        background-color: rgb(31, 22, 22);
-        font-size: xx-large;
+        background-color: rgba(108, 108, 108, 0.342);
+        /* opacity: 20px; */
+        font-size: 20px;
         color: #ffff;
         text-align: center;
 
+    }
+    .goat{
+        margin-left: 0px !important;
+        /* border: 2px solid red; */
     }
     }
